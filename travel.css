@@ -1,0 +1,926 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./images/Decorebackgroundnav\ image.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 45% 90%;
+}
+nav{
+    padding: 7%;
+    padding-bottom: 0;
+    padding-top: 3%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>img{
+    width: 10%;
+    height: 25%;
+}
+nav>div{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #181E4B;
+}
+nav button{
+    width: 10%;
+    height:25px;
+    background-color: transparent;
+}
+nav button:hover{
+    color: #181E4B;
+    border: 1px solid #181E4B;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-between;
+    padding: 7%;
+    padding-top: 0;
+}
+.seconddiv{
+    width: 40%;
+    height: 85%;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+.thirddiv{
+    width: 60%;
+}
+.thirddiv img{
+    width: 100%;
+    height: 100%;
+}
+.firstsection h5{
+    color: red;
+    margin-bottom: 20px;
+}
+.seconddiv h1{
+    font-size: 45px;
+    width: 95%;
+    margin-bottom: 20px;
+    color:#181E4B;
+}
+.seconddiv>p{
+    color: #5E6282;
+    width: 85%;
+    margin-bottom: 20px;
+}
+.seconddiv-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+.seconddiv-div img{
+    width: 40%;
+    height: 100%;
+}
+.seconddiv-div div{                                                                                                                                                                                                                                                                                                                                                                                  
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    width: 45%;
+}
+.seconddiv-div button{
+    width: 48%;
+    height: 45px;
+    background-color: #F1A501;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.seconddiv-div button:hover{
+    background-color: transparent;
+    color: #F1A501;
+    border: 1px solid #F1A501;
+}
+.seconddiv-div a{
+    text-decoration: none;
+    color: #686D77;
+}
+.seconddiv-div a:hover{
+    color: #181E4B;
+}
+.seconddiv-div{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h6{
+    width: 7%;
+    color: #5E6282;
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+h2{
+    width: 43%;
+    margin: auto;
+    color: #14183E;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.mainsection{
+    background-image: url(./images/Group\ 4ssecondsectionbackground.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 16% 25%;
+    width: 95%;
+    margin: auto;
+}
+.secondsection{
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.secondsection>div{
+    width: 20%;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.4);
+    border-radius: 25px;
+    background-color: white;
+    padding-bottom: 0;
+}
+.secondsection img{
+    width: 40%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.secondsection p{
+    text-align: center;
+    color: #5E6282;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+.secondsection h6{
+    width:45%;
+    font-size: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.secondsectionfirstdiv h6{
+    text-align: center;
+    width: 86%;
+}
+.flightdiv{
+    position: relative;
+    background-color: white;
+}
+.flightimg{
+    height: 200px;
+    position: absolute;
+    bottom: -22%;
+    left: -45%;
+    width: 40%;
+    z-index: -1;
+}
+.thirdsection{
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.fourthdiv{
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.4);
+    border-radius: 24px;
+    width: 30%; 
+    height: 30%;
+    background-image: url(./images/Rectangle\ 14rome.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 60%;
+}
+.fourthdivtwo{
+    background-image: url(./images/Rectangle\ 14london.png);
+}
+.fourthdivthree{
+    background-image: url(./images/Rectangle\ 14europe.png);
+}
+.fifthdiv{
+    width: 89%;
+    margin: auto;
+    margin-top: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    color: #5E6282;
+}
+.sixthdiv{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #5E6282;
+    margin-left: 5%;
+}
+.sixthdiv p{
+    width: 80%;
+}
+.sixthdiv img{
+    width: 10%;
+    height: 90%;
+}
+.firstsectionparttwo{
+    width: 86%;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    margin-bottom: 8%;
+}
+.seventhdiv{
+    width: 50%;
+    height: 100%;
+}
+.seventhdiv h6{
+    margin-left: 0;
+    width: 30%;
+}
+.seventhdiv h2{
+    width: 90%;
+    margin-left: 0;
+    text-align: left;
+}
+.eightdiv{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 30%;
+    height: 75%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.4);
+    position: relative;
+}
+.eightdivone{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #84829A;
+    margin-left: 5%;
+}
+.greeceimg{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.ninthdiv{
+    display: flex;
+    width: 80%;
+    color: #5E6282;
+    margin-bottom: 10%;
+}
+.trip-p{
+    margin-left: 5%;
+}
+.people-p{
+    color: #84829A;
+    margin-left: 5%;
+}
+.ninthdiv img{
+    width: 10%;
+    height: 90%;
+    margin-right: 10px;
+}
+.iconsimg{
+    width: 40%;
+    height: 8%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+.maskimg{
+    width: 25%;
+    height: 35%;
+    margin-top: 5%;
+}
+.tenthdiv{
+    position: absolute;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.2);
+    top: 60%;
+    right: -45%;
+    background-color: white;
+    height: 80px;
+    width: 170px;
+    display: flex;
+    padding: auto;
+}
+.ongoing-p{
+    font-size: 13px;
+    color: #84829A;
+    margin-top: 5%;
+}
+.percent-p{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.percent{
+    color: #8A79DF;
+}
+.testimonial-htwo{
+    width: 80%;
+    margin-bottom: 10%;
+}
+.eleventhdiv{
+    width: 35%;
+    border-radius: 8px;
+}
+.eleventhdivone{
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.2);
+}
+.eleventhdiv img{
+    width: 15%;
+    height: 20%;
+}
+.eleventhdiv p{
+    width: 70%;
+    margin: 5%;
+    color: #5E6282;
+}
+.fourthsection{
+    width: 86%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.fourthsection img{
+    width: 15%;
+    height: 50px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.2);
+}
+.fifthsection{
+    width: 86%;
+    margin: auto;
+    background-color: #DFD7F9;
+    position: relative;
+    color: #5E6282;
+    padding: 7%;
+    border-top-left-radius: 20%;
+}
+.fifthsection img{
+    position: absolute;
+    top: -5%;
+    right: -3%;
+    width: 10%;
+    height: 19%;
+}
+.fifthsection h4{
+    font-size: 35px;
+    width: 85%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.fifthsection button{
+    width: 20%;
+    height: 45px;
+    color: white;
+    background-color: #FF946D;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.fifthsection button:hover{
+    background-color: white;
+    color: #FF946D;
+    border: 1px solid #FF946D;
+}
+#inputone{
+    width: 75%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 13%;
+    background-image: url(./images/Group\ 46emailicon.png);
+    background-repeat: no-repeat;
+    background-position: 3%;
+    background-size: 9% 65%;
+}
+.eleventhdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+    height: 10%;
+    margin: auto;
+    box-shadow: none;
+}
+footer{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+footer p{
+    color: gray;
+    width: 26%;
+    margin: auto;
+    margin-top: 5%;
+}
+.sixthsection{
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.twelvthdiv h6{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #181E4B;
+    margin-left: 0;
+}
+.twelvthdiv p{
+    color: #6F727B;
+    font-size: 16px;
+    width: 85%;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.thirteendiv a{
+    display: block;
+    text-decoration: none;
+    color: #6F727B;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.thirteendiv p{
+    color: black;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+.thirteendiv{
+    color: #6F727B;
+    width: 15%;
+}
+.fourteendiv>p{
+    color: #6F727B;
+    font-size: 18px;
+    width: 70%;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 0;
+}
+.fifteendiv{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.fifteendiv img{
+    width: 50px;
+    height: 50px;
+}
+.sixteenthdiv{
+    width: 85%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.sixteenthdiv button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 48%;
+    height: 40px;
+    border-radius: 19px;
+    background-color: black;
+    color: white;
+    padding: 3%;
+}
+.buttonimg{
+    width: 20%;
+    height: 65%;
+}
+.footerbutton>p{
+    width: 68%;
+    font-size: 8px;
+}
+
+@media (max-width: 2560px ) {
+    .iconhamburger{
+        display: none;
+    }
+}   
+@media (max-width: 1024px ) {  
+    .sixthdiv{
+        width: 75%;
+    }
+    .sixthdiv p{
+        width: 80%;
+    }
+}
+@media (max-width: 768px ) {
+   nav>div{
+    width: 55%;
+   } 
+   nav a{
+    font-size: small;
+   }
+   nav button{
+    width: 12%;
+    font-size: 10px;
+   }
+   .seconddiv{
+    padding-top: 8%;
+   }
+   .seconddiv{
+    width: 75%;
+   }
+   .secondsection>div{
+    width: 23%;
+   }
+   .secondsection>div p{
+    font-size: 10px;
+   }
+   .flightimg{
+    width: 30%;
+    left: -39%;
+    bottom: -15%;
+   }
+   .ninthdiv p{
+    font-size: 10px;
+   }
+   .eightdiv p{
+    font-size: 10px;
+   }
+   .tenthdiv{
+    right: -35%;
+    height: 60px;
+    width: 130px;
+   }
+   .eightdivone{
+    width: 63%;
+   }
+   
+   .eleventhdiv{
+    width: 40%;
+}
+.eleventhdiv img{
+    width: 15%;
+    height: 20%;
+}
+.eleventhdiv p{
+    width: 80%;
+    margin: 5%;
+    font-size: 13px;
+}
+.fourthsection img{
+    width: 17%;
+    height: 40px;
+}
+.fifthsection{
+    padding: 5%;
+    border-top-left-radius: 20%;
+}
+.fifthsection img{
+    position: absolute;
+    top: -5%;
+    right: -3%;
+    width: 10%;
+    height: 19%;
+}
+.fifthsection h4{
+    font-size: 28px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.fifthsection button{
+    width: 25%;
+    height: 41px;
+}
+.eleventhdivv{
+    width: 55%;
+}
+#inputone{
+    width: 72%;
+    height: 41px;
+}
+.sixthsection{
+    font-size: 11px;
+    width: 84%;
+}
+.thirteendiv{
+    width: 12%;
+}
+.twelvthdiv{
+    width: 22%;
+}
+.twelvthdiv h6{
+    margin-bottom: 18px;
+}
+.twelvthdiv p{
+    font-size: 10px;
+    width: 100%;
+}
+.fourteendiv{
+    width: 28%;
+}
+.fourteendiv>p{
+    font-size: 11px;
+    width: 100%;
+}
+.footerbutton{
+    font-size: 6px;
+    padding: auto;
+    height: 35%;
+}
+.fifteendiv{
+    margin-left: 0;
+}
+.fifteendiv img{
+    width: 43px;
+    height: 43px;
+}
+.sixteenthdiv{
+    width: 100%;
+}
+.sixteenthdiv button{
+    width: 48%;
+}
+}
+@media (max-width: 425px ){
+    nav div{
+        display: none;
+    }
+    .logo{
+        height: 100%;
+        width: 28%;
+    }
+    .iconhamburger{
+        display: flex;
+        width: 30px;
+        height: 20px;
+    }
+    .firstsection{
+        flex-direction: column-reverse;
+    }
+    .seconddiv{
+        width: 83%;
+    }
+    .thirddiv{
+        width: 80%;
+        margin: auto;
+    }
+    .seconddiv-div{
+        width: 95%;
+    }
+    .seconddiv-div button{
+        width: 48%;
+    }
+    .seconddiv-div div{
+        width: 48%;
+    }
+    h2{
+        width: 100%;
+        font-size: 19px;
+    }
+    h6{
+        width: 35%;
+       }
+    .mainsection{
+        background-size: 26% 9%;
+        width: 92%;
+    }
+    .secondsection{
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .secondsection>div{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 12%;
+        padding-bottom: 5%;
+    }
+    .secondsection>div p{
+        font-size: 14px;
+       }
+    .secondsection>div h6{
+        font-size: 16px;
+       }
+    #flightimg{
+        width: 35%;
+        height: 35%;
+       }
+   .thirdsection{
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+   }
+   .fourthdiv{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 9%;
+   }
+   .firstsectionparttwo{
+    flex-direction: column;
+   }
+   #seventhdiv{
+    width: 90%;
+    margin-left: 10%;
+   }
+   #seventhdiv h6{
+    font-size: 20px;
+    width: 85%;
+    margin-top: 10%;
+    margin-left: 0;
+    text-align: left;
+   }
+   #seventhdiv h2{
+    font-size: 25px;
+    width: 90%;
+   }
+   #seventhdiv p{
+    font-size: 20px;
+   }
+   .ninthdiv{
+    width: 100%;
+   }
+   #eightdiv{
+    width: 75%;
+    margin: auto;
+   }
+   #eightdiv>p{
+    font-size: 16px;
+   }
+   #eightdivone>p{
+    font-size: 16px;
+   }
+   #eightdivone{
+    width: 85%;
+   }
+   #tenthdiv{
+    right: -15%;
+    height: 75px;
+    width: 120px;
+    padding: 4px;
+    background-color: white;
+   }
+   #tenthdiv p{
+    font-size: 13px;
+   }
+   #firstsectionparttwo{
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+   }
+   #svnthdiv{
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+   }
+   #svnthdiv>h2{
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 0;
+   }
+   #testimonials{
+    font-size: 13px;
+    width: 35%;
+    text-align: center;
+    margin: auto;
+   }
+   #dotss{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
+   #eleventhdivone{
+    width: 100%;
+   }
+   #eleventhdiv{
+    width: 80%;
+   }
+   .fourthsection{
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+    width: 90%;
+   }
+   .fourthsection>img{
+    width: 36%;
+    margin: auto;
+    height: 15%;
+    margin-bottom: 10%;
+    box-shadow: none;
+   }
+   .fifthsection h4{
+    font-size: 16px;
+   }
+   .eleventhdivv{
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+   }
+   #inputone{
+    width: 100%;
+    margin-bottom: 6%;
+    padding-left: 14%;
+   }
+   .eleventhdivv>button{
+    width: 100%;
+   }
+   .sixthsection{
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+   }
+   .twelvthdiv{
+    width: 100%;
+    margin: auto;
+   }
+   .twelvthdiv>p{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 13px;
+   }
+   #jadoo{
+    width: 40%;
+    margin: auto;
+   }
+   .thirteendiv{
+    width: 35%;
+    margin: auto;
+    margin-bottom: 5%;
+    font-size: 15px;
+   }
+   .thirteendiv a{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2%;
+   }
+   .thirteendivlast>p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10%;
+   }
+   .fourteendiv{
+    width: 100%;
+    margin: auto;
+   }
+   .fourteendiv>p{
+    width: 38%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
+   .fifteendiv{
+    margin: auto;
+   }
+   .sixteenthdiv{
+    flex-direction: column;
+    margin: auto;
+   }
+   .footerbutton{
+    width: 70%;
+    height: 30px;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 6%;
+   }
+   footer>p{
+    width: 48%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 13px;
+   }
+   .buttonimg{
+    width: 16%;
+   }
+
+   
+   
+    
+}
